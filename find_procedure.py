@@ -4,11 +4,6 @@ import os
 migrations = 'Migrations'
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-print(__file__)
-print(os.path.abspath(__file__))
-print(current_dir)
-
-
 if __name__ == '__main__':	
 	
 	migrations_dir = os.path.join(current_dir, migrations)
